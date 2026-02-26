@@ -18,6 +18,4 @@ Route::get('/', function () {
     return view('home');
 });
 
-
-require __DIR__.'/shop.php';
 require __DIR__.'/settings.php';
