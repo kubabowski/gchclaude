@@ -139,16 +139,16 @@ class ShopController extends Controller
     private function getProduct(): array
     {
         return [
-            'name'        => 'Kurs Laravel Pro',
-            'description' => 'Kompleksowy kurs Laravel od podstaw do zaawansowanych technik. Dożywotni dostęp, certyfikat ukończenia, 40+ godzin video.',
+            'name'        => 'Susz CBD',
+            'description' => 'Bardzo dobrej jakości susz CBD z ekologicznej uprawy. Każdy gram to efekt miesięcy pracy, pasji i zaangażowania. Oferujemy produkty o wysokiej jakości, przebadane, THC < 0.2%, w pełni legalne i bezpieczne.',
             'price'       => 19900, // 199,00 PLN w groszach
-            'image'       => 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&q=80',
+            'image'       => 'https://www.gchemp.pl/assets/images/susz.jpg',
             'features'    => [
-                '40+ godzin materiałów video',
-                'Projekty praktyczne',
-                'Certyfikat ukończenia',
-                'Dożywotni dostęp',
-                'Wsparcie społeczności',
+                '100% ekologiczna uprawa',
+                'Ręczna selekcja i pakowanie',
+                'Świadomy proces kuracji',
+                'Bez pestycydów i chemii',
+                'Lokalne z Chojnic',
             ],
         ];
     }
